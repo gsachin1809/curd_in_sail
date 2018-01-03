@@ -41,7 +41,7 @@ module.exports.routes = {
 	},
 	'get /user/:id': {
 		controller	: 'user',
-		action		: 'find'
+		action		: 'show'
 	},
 	'post /user': {
 		controller	: 'user',
